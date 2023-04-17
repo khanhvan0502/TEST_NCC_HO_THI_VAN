@@ -16,7 +16,8 @@
 
 2. Install packages
 
-    npm install
+   npm install
 
 3. Start application
-    npm start
+
+   npm start
