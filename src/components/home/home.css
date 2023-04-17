@@ -79,7 +79,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .home-wrapper {
     padding: 30px 40px;
-    width: 90%;
+    width: 100%;
   }
 
   .top {
@@ -99,4 +99,42 @@
     width: 100px;
     height: 100px;
   }
+}
+
+@media (max-width: 768px) {
+  .home-wrapper {
+    padding: 30px 40px;
+    width: 100%;
+  }
+
+  .home-logo img {
+    width: 260px;
+    height: 80px;
+  }
+
+  .top {
+    padding: 25px 50px;
+  }
+
+  .card-list {
+    flex-direction: column;
+  }
+
+  .card-item{
+    padding-bottom: 25px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .card-content {
+    margin-top: 16px;
+  }
+
+  .card-logo {
+    width: 100px;
+    height: 100px;
+  } 
 }
