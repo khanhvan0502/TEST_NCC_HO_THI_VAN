@@ -65,9 +65,38 @@
 
 .card-content {
   margin-top: 18px;
+  text-align: justify;
 }
 
 .card-logo {
   width: 128px;
   height: 128px;
+  float: left;
+  padding-bottom: 6px;
+  padding-right: 16px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home-wrapper {
+    padding: 30px 40px;
+    width: 90%;
+  }
+
+  .top {
+    padding: 38px 100px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .card-content {
+    margin-top: 16px;
+  }
+
+  .card-logo {
+    width: 100px;
+    height: 100px;
+  }
 }

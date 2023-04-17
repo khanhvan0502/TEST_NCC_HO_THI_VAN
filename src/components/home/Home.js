@@ -32,54 +32,42 @@ const Home = () => {
             <div className="card-list">
               <div className="card-item">
                 <h2 className="card-title">Lorem ipsum dolor sit amet?</h2>
-                <div className="card-content">
-                  <div className="card-logo">
-                    <img src={htlmIcon} alt="" />
-                  </div>
-                  <div className="card des">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatem maxime dolorum aut dolore voluptate vitae odit
-                    perferendis animi, ipsum eum nostrum soluta commodi! Optio
-                    dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Voluptatem maxime dolorum
-                    aut dolore voluptate vitae odit perferendis animi, ipsum eum
-                    nostrum soluta commodi!
-                  </div>
-                </div>
+                <p className="card-content">
+                  <img className="card-logo" src={urlIcon} alt="" />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem maxime dolorum aut dolore voluptate vitae odit
+                  perferendis animi, ipsum eum nostrum soluta commodi! Optio
+                  dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Voluptatem maxime dolorum
+                  aut dolore voluptate vitae odit perferendis animi, ipsum eum
+                  nostrum soluta commodi!
+                </p>
               </div>
               <div className="card-item">
                 <h2 className="card-title">Lorem ipsum dolor sit amet?</h2>
-                <div className="card-content">
-                  <div className="card-logo">
-                    <img src={cssIcon} alt="" />
-                  </div>
-                  <div className="card des">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatem maxime dolorum aut dolore voluptate vitae odit
-                    perferendis animi, ipsum eum nostrum soluta commodi! Optio
-                    dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Voluptatem maxime dolorum
-                    aut dolore voluptate vitae odit perferendis animi, ipsum eum
-                    nostrum soluta commodi!
-                  </div>
-                </div>
+                <p className="card-content">
+                  <img className="card-logo" src={htlmIcon} alt="" />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem maxime dolorum aut dolore voluptate vitae odit
+                  perferendis animi, ipsum eum nostrum soluta commodi! Optio
+                  dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Voluptatem maxime dolorum
+                  aut dolore voluptate vitae odit perferendis animi, ipsum eum
+                  nostrum soluta commodi!
+                </p>
               </div>
               <div className="card-item">
                 <h2 className="card-title">Lorem ipsum dolor sit amet?</h2>
-                <div className="card-content">
-                  <div className="card-logo">
-                    <img src={urlIcon} alt="" />
-                  </div>
-                  <div className="card-des">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatem maxime dolorum aut dolore voluptate vitae odit
-                    perferendis animi, ipsum eum nostrum soluta commodi! Optio
-                    dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Voluptatem maxime dolorum
-                    aut dolore voluptate vitae odit perferendis animi, ipsum eum
-                    nostrum soluta commodi!
-                  </div>
-                </div>
+                <p className="card-content">
+                  <img className="card-logo" src={urlIcon} alt="" />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem maxime dolorum aut dolore voluptate vitae odit
+                  perferendis animi, ipsum eum nostrum soluta commodi! Optio
+                  dolores ipsum ipsa at. Beatae, maxime!Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Voluptatem maxime dolorum
+                  aut dolore voluptate vitae odit perferendis animi, ipsum eum
+                  nostrum soluta commodi!
+                </p>
               </div>
             </div>
           </div>
